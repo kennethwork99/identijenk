@@ -1,4 +1,5 @@
-FROM jenkins:1.609.3
+FROM jenkins:latest
+#FROM jenkins:1.609.3
 
 USER root
 RUN echo "deb http://apt.dockerproject.org/repo debian-jessie main" \
